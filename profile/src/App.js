@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Res from "./Resume.js";
+import About from "./components/About";
 
 function App() {
   return (
     <div>
-      <Res></Res>
+      <About></About>
     </div>
   );
 }

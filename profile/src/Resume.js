@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import Resume from "./assets/Resume.pdf";
+import ResumeLocation from "./assets/Resume.pdf";
 
-class Res extends Component {
+class Resume extends Component {
   render() {
     return (
       <div>
-        <a href={Resume}>click</a>
+        <a href={ResumeLocation}>click</a>
       </div>
     );
   }
 }
-export default Res;
+export default Resume;
